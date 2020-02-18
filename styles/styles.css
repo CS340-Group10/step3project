@@ -33,3 +33,46 @@ table, th {
 	border-collapse: collapse;
 	text-align: center;
 }
+
+/* styles for report page */
+#search {
+    width: 55%;
+    height: 40px;
+    font-size: 150%;
+    margin-left: 0;
+    padding-left: 10px;
+    border: 1px solid;
+}
+
+.dropdown, #finder {
+    width: 100px;
+    height: 45px;
+    border-radius: 0;
+    font-size: 22px;
+    margin-right: 0;
+    border: 1px solid;
+}
+
+#results {
+    width: 70%;
+    font-size: 32px;
+}
+
+.form1 {
+    padding-bottom: 50px;
+}
+
+#formPhoto {
+    width: 200px;
+    height: 200px;
+}
+
+#injuryReport {
+    position: relative;
+    left: 300px;
+    bottom: 225px;
+}
+
+#formIcons {
+    height: 250px
+}

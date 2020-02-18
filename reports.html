@@ -3,6 +3,7 @@
 <head>
 	<title>reports</title>
 	<link rel = "styleSheet" href = "styles/styles.css" type =text/css>
+	<meta charset="UTF-8">
 </head>
 <body>
 	<h1> Reports </h1>
@@ -15,6 +16,21 @@
         </ul>
     </nav>
 
+<!-- Search Bar -->
+<br><br>
+<form method="get" class="form1">
+<select class="dropdown">
+	<option name="Sports">Sports</option>
+	<option name="Teams">Teams</option>
+	<option name="Injuries">Injuries</option>
+</select><!-- remove whitespace
+--><input type="text" name="searchBar" id="search"><!-- remove whitespace
+--><button id="finder">Search</button>
+</form>
+
+
+
+<!--
   <h2>Search Teams</h2>
    <form action="/action_page.php">
 	Sport:<br>
@@ -26,30 +42,52 @@
 	<input type="submit" value="Submit">
    </form> 
 	
-	
+-->
+
+<!-- Reports Selection Icons -->
+<div id="formIcons">
+<form method="get">
+	<button type="submit" name="finance">
+<!--	<img src="images/financeReport.png" id="moneyPhoto">  -->
+	<img src="images/financialReport.png" id="formPhoto">
+	</button>
+	<br><label for="finance"> Team Active Player Salary Cap Report</label>
+</form>
+
+<form method="get" id="injuryReport">
+	<button type="submit" name="injury">
+	<img src="images/injuryReport.jpg" id="formPhoto">
+	</button>
+	<br><label for="injury">Sport Injury Report</label>
+</form>
+</div>
+
+
+
+<!-- Search Results --->	
  <br>
+ <h4>SEARCH RESULTS:</h4>
     <div>
 	    <div>
 	    <table>
-	    	<caption>Search Results</caption>
 			<thead>
 				<th>Team Name</th>
+				<th>City</th>
 				<th>State</th>
 				<th>Organization</th>
-				<th>Contracts</th>
 			</thead>
 			<tbody>
 				<tr bgcolor="#B9CEFF">
 					<td>Kansas City Chiefs</td>
+					<td>Kansas City</td>
 					<td>Kansas</td>
 					<td>NFL</td>
-					<td>56</td>
 				</tr>
 				<tr>
-					<td>Kansas City Royals</td>
-					<td>Kansas</td>
+					<td>Miami Heat</td>
+					<td>Miami</td>
+					<td>Florida</td>
 					<td>NBA</td>
-					<td>26</td>
 				</tr>
 			</tbody>
 		</table>  	
