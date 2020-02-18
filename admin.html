@@ -3,6 +3,7 @@
 <head>
 	<title>admin</title>
     <link rel = "styleSheet" href = "styles/styles.css" type =text/css>
+    <meta charset="UTF-8">
 </head>
 <body>
 	<h1> Administration </h1>
@@ -14,7 +15,8 @@
             <li class = "field"><a href = "admin.html" id = "aLink">Admin</a></li>
         </ul>
     </nav>
-
+<br><br>
+<div class="addSports">
   <h2>Add Sports</h2>
    <form action="/action_page.php">
 	Name of sport:<br>
@@ -25,48 +27,50 @@
 	<br><br>
 	<input type="submit" value="Submit">
    </form> 
+</div>
    
    
    
+  <div class="addingForms">
+      <div class="addTeam" >
+      <h2>Add Teams</h2>   
+     
+       <form action="/action_page.php">
+        	Team Name:<br>
+        	<input type="text" name="team_name">
+        	<br>
+        	City:<br>
+        	<input type="text" name="city">
+        	<br><br>
+        	State:<br>
+        	<input type="text" name="state">
+        	<br>
+        	Sport Type:<br>
+        	<input type="text" name="sport_name">
+        	<br>
+        	<input type="submit" value="Submit">
+       </form> 
+     </div>
    
-
-  <h2>Add Teams</h2>   
-  <table>
-   <form action="/action_page.php">
-	Team Name:<br>
-	<input type="text" name="team_name">
-	<br>
-	City:<br>
-	<input type="text" name="city">
-	<br><br>
-	State:<br>
-	<input type="text" name="state">
-	<br>
-	Sport Type:<br>
-	<input type="text" name="sport_name">
-	<br>
-	<input type="submit" value="Submit">
-   </form> 
-   </table>
-   
-     <h2>Add Injuries</h2>   
-  <table>
-   <form action="/action_page.php">
-	Injury Name:<br>
-	<input type="text" name="injury_name">
-	<br>
-	Injury Type:<br>
-	<input type="text" name="injury_type">
-	<br><br>
-	Additional Notes:<br>
-	<input type="text" name="injury_notes">
-	<br>
-	Linked to sport? (Optional)<br>
-	<input type="text" name="sport_name">
-	<br>
-	<input type="submit" value="Submit">
-   </form> 
-   </table>
+      <div class="addInjury">
+      <h2>Add Injuries</h2>   
+       <form action="/action_page.php">
+        	Injury Name:<br>
+        	<input type="text" name="injury_name">
+        	<br>
+        	Injury Type:<br>
+        	<input type="text" name="injury_type">
+        	<br><br>
+        	Additional Notes:<br>
+        	<input type="text" name="injury_notes">
+        	<br>
+        	Linked to sport? (Optional)<br>
+        	<input type="text" name="sport_name">
+        	<br>
+        	<input type="submit" value="Submit">
+       </form>
+       </div> 
+   </div>
    
 <br>
 <div>

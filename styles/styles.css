@@ -74,5 +74,37 @@ table, th {
 }
 
 #formIcons {
-    height: 250px
+    height: 250px;
+}
+
+
+/* styles for Admin page */
+.addingForms {
+    height: 100px;
+}
+
+
+.addSports {
+    position: relative;
+    border: 1px solid;
+    width: 200px;
+    padding-left: 10px;
+}
+
+.addTeam {
+    position: relative;
+    left: 300px; 
+    border: 1px solid;
+    width: 200px;
+    padding-left: 10px;
+    bottom: 200px;
+}
+
+.addInjury {
+    position: relative;
+    left: 650px; 
+    bottom: 475px;
+    border: 1px solid;
+    width: 200px;
+    padding-left: 10px;
 }
