@@ -1,4 +1,9 @@
 -- insert queries
+INSERT INTO injuries (injury_type, injury_name, injury_notes)
+	VALUES (:injuryType, :injuryName, :injuryNotes)
+
+INSERT INTO sports (sport_name, professional_organization)
+	VALUES (:sportName, :profOrg)
 
 -- select queries
 -- Reports page: searching team name search bar
@@ -15,4 +20,7 @@ UPDATE sports
 
 
 -- delete queries
+-- Administration page: delete sport
+DELETE FROM sports
+WHERE sport_name = :sportName
 
