@@ -1,6 +1,6 @@
 -- insert queries
 INSERT INTO injuries (injury_type, injury_name, injury_notes)
-	VALUES (:injuryType, :injuryName, :injuryNotes)
+	VALUES ("Knee", "ACL tear", "Very common in Football")
 
 INSERT INTO sports (sport_name, professional_organization)
 	VALUES (:sportName, :profOrg)
